@@ -47,13 +47,13 @@ Your job is to implement all incomplete stubbed out methods: `prepend`, `get`, `
 
 Just like presented in the notes, we highly recommend that you draw out examples as you implement these functions. Stepping through these operations visually is helpful for thinking through them, realize=ing special cases, debugging mistakes, and implementing them correctly. The drawings in the notebook were not only for your benefit. The author was implementing the Linked List code that was presented while writing that notebook.
 
-1. Implement `prepend` and ensure that `test_empty_list_prepend` and `test_prepend` passes.
+1. Implement `prepend` and ensure that `test_empty_list_prepend` and `test_prepend` passes. (4 pts)
 
-2. Implement `get` and ensure that `test_get` passes. For efficiency, implement `get` so that if the index requested is the last element in the list, directly retrieve it through the TAIL rather than iterating to it.
+2. Implement `get` and ensure that `test_get` passes. For efficiency, implement `get` so that if the index requested is the last element in the list, directly retrieve it through the TAIL rather than iterating to it. (3 pts)
 
-3. Implement `remove_last` and ensure that `test_remove_last` passes.
+3. Implement `remove_last` and ensure that `test_remove_last` passes. (3 pts)
 
-4. Implement `remove` and ensure that `test_remove_special_cases` and `test_remove_general` passes. Note that `remove` takes in the `element` to remove. If that element is not in the list, nothing happens. If that element is in the list, the earliest instance of it is removed.
+4. Implement `remove` and ensure that `test_remove_special_cases` and `test_remove_general` passes. Note that `remove` takes in the `element` to remove. If that element is not in the list, nothing happens. If that element is in the list, the earliest instance of it is removed. (4 pts)
     
     For example, after `l.remove(3)` is called on the list:
 
@@ -73,7 +73,7 @@ Now having implemented a Linked List, you will find that implementing a Stack is
 
 Recall that for a stack, you can use a Linked List and implement its `push`, `pop`, and `top` operations by always inserting, removing, and accessing from the same end of the Linked List.
 
-5. Implement `push`, `pop`, and `top` in `stack.py`, and ensure that `test_stack` passes.
+5. Implement `push`, `pop`, and `top` in `stack.py`, and ensure that `test_stack` passes. (4 pts)
 
 ## Parentheses Checker
 
@@ -98,7 +98,7 @@ How can we use a Stack to solve this problem?
 
 Consider the string `"(())"`. We can iterate over it. Every time we encounter a `(`, we push it onto the stack. When we encounter a `)`, we pop an element off of the stack. It will be the matching open parenthesis. If we ever encounter a closing parenthesis, but the stack it empty, that parenthesis is unmatched. If, after iterating over the entire string, the stack still has elements on them, they are unmatched open parentheses. Using these ideas, you can implement a matching parentheses checker.
 
-6. Implement `are_parentheses_matched(string)` which takes in a string and returns `True` if all parentheses are matched and `False` if there are any unmatched parentheses. An empty string is considered to be matched. Ensure that all six parentheses checker tests pass.
+6. Implement `are_parentheses_matched(string)` which takes in a string and returns `True` if all parentheses are matched and `False` if there are any unmatched parentheses. An empty string is considered to be matched. Ensure that all six parentheses checker tests pass. (7 pts)
 
 ## Epiloque
 
