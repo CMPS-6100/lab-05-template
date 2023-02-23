@@ -63,6 +63,10 @@ Just like presented in the notes, we highly recommend that you draw out examples
 
     `[2]<->[5]<->[3]`
 
+### A Note on Unit Tests
+
+Unit Tests are provided for the entire Linked List class, not just the part you are implementing.
+
 ## Stack
 
 Now having implemented a Linked List, you will find that implementing a Stack is much easier!
