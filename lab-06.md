@@ -2,7 +2,7 @@
 
 In this lab, you will implement and use a Linked List and Stack built off of it to solve the matched parenthesis problem. 
 
-Some prompts will require you to edit `main.py` and others will require answers to go in `answers.md`.
+In this lab, you will be implementing parts of `linked_list.py`, `stack.py`, and `main.py`.
 
 Refer back to the [README.md](README.md) for instruction on git, how to test your code, and how to submit properly to get all the points you've earned.
 
