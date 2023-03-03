@@ -102,4 +102,4 @@ Consider the string `"(())"`. We can iterate over it. Every time we encounter a 
 
 ## Epiloque
 
-Linked Lists are tricky to implement. They are very detail oriented and due to the connected state of the list, subtle mistakes in one operation can result in hard to trace bugs in other operations. That all said, once implemented, they are very useful and foundational for other data structures. You have now used your Linked List to implement a Stack and in turn to implement an important operation for all programming languages.
+Linked Lists are tricky to implement. They are very detail oriented and due to the connected state of the list, subtle mistakes in one operation can result in hard to trace bugs in other operations. That all said, once implemented, they are useful and foundational for other data structures. You have now used your Linked List to implement a Stack which you've used in turn to solve an important problem for all programming languages.
