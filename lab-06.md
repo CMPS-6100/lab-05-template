@@ -1,6 +1,6 @@
 # CMPS 6100  Lab 06
 
-In this lab, you will implement and use a Linked List and Stack built off of it to solve the matched parenthesis problem. 
+In this lab, you will implement and use a Linked List and Stack built off of it to solve a practical problem: the matched parenthesis problem. This is a problem relevant to running programs since computer programs are not valid unless all open parentheses are matched by closing ones. In the event a program contains mismatched parentheses, the programmer must be notified. In this lab, you will implement an algorith to detect this case.
 
 In this lab, you will be implementing parts of `linked_list.py`, `stack.py`, and `main.py`.
 
