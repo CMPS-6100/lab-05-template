@@ -14,7 +14,7 @@ As you've seen while writing python programs, it is easy to end up with nested o
 for i in range(len(dict.keys())):
 ```
 
-Python instructions are only valid if every open `(` is matched by a closing `)`. The python interpreter must ensure that this is true for an entire program before trying to execute it.
+Python instructions are only valid if every open \`(\` is matched by a closing \`)\`. The python interpreter must ensure that this is true for an entire program before trying to execute it.
 
 You will implement a function to ensure that all open parentheses are matched by closing ones in a given string. 
 
