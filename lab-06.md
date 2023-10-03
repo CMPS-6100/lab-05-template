@@ -30,12 +30,12 @@ While we only need a handful of methods from a Linked List for a Stack, we will 
 
 Since we have multiple parts, Linked List, Stack, Parentheses Matcher, we are implementing each in its own file and using import statements to pull everything together.
 
-There are three python files in this lab: `linked_list.py`, `stack.py`, and `main.py`, and `unit_tests.py`. The parentheses matcher goes in `main.py`. All pytests are in `unit_tests.py` The other two are self-explanatory.
+There are three python files in this lab: `linked_list.py`, `stack.py`, and `main.py`, and `unit_tests.py`. The parentheses matcher goes in `main.py`. All pytests are in `unit_tests.py` `linked_list.py` and `stack.py`o are self-explanatory.
 
-This organization makes sense. There are a couple of reasons not to bundle everything in one long source file. 
+Breaking our program into individual files is a good idea. There are a couple of reasons not to bundle everything in one long source file. 
 
 1) Long source files are hard to read
-2) We want to minimize import bloat. There is no need to force someone who needs a linked list to also import a stack and parentheses matcher just because they are written in the same file.
+2) We want to minimize import bloat. If you want to use a linked list in a later program, you can cleanly import your linked list without also being forced to import a stack and parentheses matcher too.
 
 All pytests are in `unit_tests.py` for ease of setting up and running the tests on GitHub.
 
@@ -45,7 +45,7 @@ We will start this lab by implementing a Linked List. A partially implemented Li
 
 Your job is to implement all incomplete stubbed out methods: `prepend`, `get`, `remove_last`, and `remove`.
 
-Just like presented in the notes, we highly recommend that you draw out examples as you implement these functions. Stepping through these operations visually is helpful for thinking through them, realize=ing special cases, debugging mistakes, and implementing them correctly. The drawings in the notebook were not only for your benefit. The author was implementing the Linked List code that was presented while writing that notebook.
+Just like presented in the notes, we highly recommend that you draw out examples as you implement these functions. Stepping through these operations visually is helpful for thinking through them, realizing special cases, debugging mistakes, and implementing them correctly. The drawings in the notebook were not only for your benefit. The author was implementing the Linked List code being presented while writing that notebook.
 
 1. Implement `prepend` and ensure that `test_empty_list_prepend` and `test_prepend` passes. (4 pts)
 
