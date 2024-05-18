@@ -1,5 +1,5 @@
 """
-CMPS 6100  Lab 6
+CMPS 6100  Lab 5
 Author:
 """
 
