@@ -1,8 +1,8 @@
-# CMPS 6100  Lab 06
+# CMPS 6100  Lab 05
 
 In this lab, you will complete the implementation of data structures that we have discussed, and you will put them to use.
 
-To complete this lab, follow the instructions in [lab-06.md](lab-06.md) ([PDF version](lab-06.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
+To complete this lab, follow the instructions in [lab-05.md](lab-05.md) ([PDF version](lab-05.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
 ## Turning in your work
 - At the top of `main.py`, **add your name**.
