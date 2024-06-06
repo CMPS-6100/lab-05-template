@@ -47,7 +47,7 @@ Your job is to implement all incomplete stubbed out methods: `prepend`, `get`, `
 
 Just like presented in the notes, we highly recommend that you draw out examples as you implement these functions. Stepping through these operations visually is helpful for thinking through them, realizing special cases, debugging mistakes, and implementing them correctly. The drawings in the notebook were not only for your benefit. The author was implementing the Linked List code being presented while writing that notebook.
 
-1. Implement `prepend` and ensure that `test_empty_list_prepend` and `test_prepend` passes. (4 pts)
+1. Implement `prepend` and ensure that `test_empty_list_prepend` and `test_general_prepend` passes. (4 pts)
 
 2. Implement `get` and ensure that `test_get` passes. For efficiency, implement `get` so that if the index requested is the last element in the list, directly retrieve it through the TAIL rather than iterating to it. (3 pts)
 
