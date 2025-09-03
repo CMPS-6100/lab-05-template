@@ -6,7 +6,9 @@ To complete this lab, follow the instructions in [lab-05.md](lab-05.md) ([PDF ve
 
 ## Turning in your work
 - At the top of `main.py`, **add your name**.
-- Once you have pushed your final submission to GitHub, go to Canvas and submit a link to your repository to the Canvas assignment for this lab. 
+- Once you have pushed your final submission to GitHub, go to Canvas and submit
+your `main.py` file to gradescope to be autograded. There is a gradescope
+button at the bottom of the assignment page.
 
 ## Using Git 
 - [Clone] your lab repository to your local device.
