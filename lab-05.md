@@ -14,11 +14,11 @@ As you've seen while writing python programs, it is easy to end up with nested o
 for i in range(len(dict.keys())):
 ```
 
-Python instructions are only valid if every open \`(\` is matched by a closing \`)\`. The python interpreter must ensure that this is true for an entire program before trying to execute it.
+Python instructions are only valid if every open \`(\` is matched by a closing \`)\`. The python interpreter must ensure this is true for an entire program before trying to execute it.
 
-You will implement a function to ensure that all open parentheses are matched by closing ones in a given string. 
+You will implement a function which takes in a string and ensures that all open parentheses are matched by closing ones in that string. 
 
-However, before we get there, we need to implement our data structures to use.
+However, before we get there, we need to implement the data structures we will use to solve this problem.
 
 As Carl Sagan said, "If you wish to make an apple pie from scratch, you must first invent the universe."
 
@@ -30,14 +30,12 @@ While we only need a handful of methods from a Linked List for a Stack, we will 
 
 Since we have multiple parts, Linked List, Stack, Parentheses Matcher, we are implementing each in its own file and using import statements to pull everything together.
 
-There are three python files in this lab: `linked_list.py`, `stack.py`, and `main.py`, and `unit_tests.py`. The parentheses matcher goes in `main.py`. All pytests are in `unit_tests.py` `linked_list.py` and `stack.py`o are self-explanatory.
+There are three python files in this lab: `linked_list.py`, `stack.py`, and `main.py`, and `unit_tests.py`. The parentheses matcher goes in `main.py`. All pytests are in `unit_tests.py`. `linked_list.py` and `stack.py`o are self-explanatory.
 
 Breaking our program into individual files is a good idea. There are a couple of reasons not to bundle everything in one long source file. 
 
 1) Long source files are hard to read
 2) We want to minimize import bloat. If you want to use a linked list in a later program, you can cleanly import your linked list without also being forced to import a stack and parentheses matcher too.
-
-All pytests are in `unit_tests.py` for ease of setting up and running the tests on GitHub.
 
 ## Linked List
 
