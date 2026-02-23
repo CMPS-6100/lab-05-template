@@ -12,7 +12,7 @@ class Node:
         self.element = element
         # Create two attributes, next and prev and initialize them
         # to be None
-        # These are set when a None is added to a Linked List
+        # These are set when a Node is added to a Linked List
         self.next = None
         self.prev = None
 
